@@ -1,5 +1,5 @@
 import css from './ContactListItem.module.css';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { Confirm } from 'notiflix/build/notiflix-confirm-aio'; // Import Confirm from Notiflix
 import { FaTrash } from 'react-icons/fa'; // Import FontAwesome icons
@@ -38,7 +38,7 @@ export const ContactListItem = ({ filteredContact }) => {
   );
 };
 
-ContactListItem.propTypes = {
-  filteredContact: PropTypes.object.isRequired,
-  deleteContact: PropTypes.func.isRequired,
-};
+// ContactListItem.propTypes = {
+//   filteredContact: PropTypes.object.isRequired,
+//   deleteContact: PropTypes.func.isRequired,
+// };
